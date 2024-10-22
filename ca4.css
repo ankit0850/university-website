@@ -1,0 +1,110 @@
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(Gallery7.jpg);
+    margin: 0;
+    padding-top: 67px; /* Make space for the fixed header */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: skyblue; /* Ensure the header has a background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a slight shadow for better visibility */
+}
+
+.logo {
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+header .logo span {
+    color: var(--theme-color);
+}
+
+.navbar a {
+    font-size: 3rem;
+    color: rgb(8, 15, 18);
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+
+.cl {
+    background-image: url(lpu.jpg);
+    margin-top: 90px;
+    font-size: 30px;
+    height: 657px;
+    color: blue;
+}
+
+/* Spacing for the content */
+section {
+    padding: 2rem 9%;
+}
+
+.navbar {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Ensure content starts below the fixed header */
+.content {
+    padding-top: 100px;
+}
+#ad1{
+    color: red;
+}
+
+
+h1{
+    font-size: 40px;
+    
+}
+#a1{
+    float: right;
+    font-size: 20px;
+    color: chartreuse;
+}
+#a2{
+    float: right;
+    font-size: 30px;
+    color: blue;
+}
+#a3{
+    float: right;
+    font-size: 32px;
+    color: blueviolet;
+    
+
+}
+#a4{
+    float: right;
+    font-size: 32px;
+    color: brown;
+   
+}
+#a5{
+    float: right;
+    font-size: 32px;
+    color: bisque;
+   
+
+}
+#p1{
+    color: blue;
+}
